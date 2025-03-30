@@ -4,7 +4,6 @@ import { useAuth } from "../../components/AuthContext";
 import GoogleLoginButton from "../../components/LogIn/GoogleLoginButton";
 import Carousel from "../../components/Carousel/Carousel";
 import LogIn from "../Login/logInPage";
-import ad from "../../assets/advert.png";
 
 const Home = () => {
   const { user } = useAuth();

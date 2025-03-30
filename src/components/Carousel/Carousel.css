@@ -1,13 +1,13 @@
 .carousel-container {
     position: relative;
-    width: 500px;  /* Increased width */
+    width: 500px;  
     margin: 0;
     padding: 15px;
 }
 
 .carousel-viewport {
-    height: 500px; /* Increased height */
-    width: 548px; /* Adjusted width to maintain border */
+    height: 500px;
+    width: 548px; 
     overflow: hidden;
     position: relative;
     margin-bottom: 20px;
@@ -24,7 +24,7 @@
 
 .carousel-item {
     width: 500px;
-    height: 450px; /* Adjusted to match viewport */
+    height: 450px; 
     flex-shrink: 0;
     padding: 15px;
 }

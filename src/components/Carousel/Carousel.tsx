@@ -11,15 +11,13 @@ interface FormData {
 }
 
 const Carousel: React.FC = () => {
-  const { user } = useAuth(); // Get user from AuthContext
+  const { user } = useAuth();
   const [forms, setForms] = useState<FormData[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Load forms from localStorage when the component mounts
   useEffect(() => {
     const storedForms = JSON.parse(localStorage.getItem("formEntries") || "[]");
 
-    // Check if forms are empty, and add some default forms if true
     if (storedForms.length === 0) {
       const defaultForms: FormData[] = [
         {
@@ -51,11 +49,9 @@ const Carousel: React.FC = () => {
       name: user.name,
     };
 
-    // Update localStorage with the new form entry
     const updatedForms = [...forms, newForm];
     localStorage.setItem("formEntries", JSON.stringify(updatedForms));
 
-    // Update state
     setForms(updatedForms);
   };
 
