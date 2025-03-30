@@ -1,0 +1,110 @@
+*
+{
+
+}
+
+.DoForm{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: rgb(125, 173, 230);
+    padding-bottom:20px;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(60, 62, 71);
+    border-left: 0px;
+    gap: 20px;
+}
+.formCards {
+    display: flex;
+    justify-content: space-between  ;
+
+
+
+
+
+
+
+  }
+
+.Creator
+{
+    
+    flex-direction: column;
+    align-items: center;
+
+    
+    width: 100%;
+    height: 95vh;
+
+    background-color: white; 
+
+    background-color: #6cae75;
+    padding-bottom:24px;
+    border: 10px solid rgb(60, 62, 71);
+
+}    
+  
+.submitForm{
+    width: 150px;
+}
+
+.navBar{
+    height:4vh;
+    padding-bottom:15px;
+
+}
+
+nav{
+    padding-left: 40px;
+    padding-top: 7px;
+    background-color: rgb(230, 184, 125);
+    height:10vh;
+
+    
+}
+
+
+.Do-A-Survey{
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.DoCaption{
+    padding-left: 45%;
+    padding-bottom: 3%;
+}
+
+.Add-A-Survey{
+    width: 130;
+    border-bottom: 2px solid black;
+    height: 10.95vh;
+}
+.CreateCaption{
+    padding-left: 36%;
+    padding-top: 5%;
+}
+
+
+
+.logo {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(179, 155, 202);
+}
+
+
+.nav-button{
+    height: 4vh;
+
+
+}
+
+.nav-button:hover{
+    height: 5.75vh;
+
+}
+
+.logo:hover{
+    color: #123524;
+}

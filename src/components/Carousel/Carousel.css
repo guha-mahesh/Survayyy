@@ -1,0 +1,37 @@
+.carousel-container {
+    position: relative;
+    width: 500px;  /* Increased width */
+    margin: 0;
+    padding: 15px;
+}
+
+.carousel-viewport {
+    height: 500px; /* Increased height */
+    width: 548px; /* Adjusted width to maintain border */
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    border: 6px solid rgb(57, 59, 68);
+    border-radius: 18px;
+    box-shadow: inset 0px 4px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    width: 500px;
+    height: 450px; /* Adjusted to match viewport */
+    flex-shrink: 0;
+    padding: 15px;
+}
+
+button {
+    margin: 6px;
+    padding: 8px 14px;
+    font-size: 16px;
+    cursor: pointer;
+}

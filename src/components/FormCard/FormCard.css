@@ -1,0 +1,78 @@
+* {
+    /*border: 1px solid red;*/
+}
+
+.form-card {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(80, 83, 97);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+    border: 7px solid rgb(80, 83, 97);
+}
+
+.form-card:hover {
+    background-color: grey;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card-name {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titlewrap {
+    background-color:rgb(98, 101, 205);
+    width: 100%;
+    border-radius: 30px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.card-desc {
+
+    height: 200px;
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 40px;
+
+}
+
+.card-image-container {
+    width: 100%;
+    height: 400px; /* Fixed height for image area */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden; /* Ensures image corners are rounded */
+    background-color: rgba(0, 0, 0, 0.2); /* Fallback if image doesn't load */
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image covers container without stretching */
+    object-position: center; /* Centers the image */
+}
+
+.card-image:hover {
+    cursor: pointer;
+}
+
+.card-desc-text{
+    padding-top:5%;
+}

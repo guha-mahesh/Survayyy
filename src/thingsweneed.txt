@@ -1,0 +1,5 @@
+1. a log in page
+2. a dynamic component that's just the club card
+3. a description tab
+4. a connect financials tab
+5. a ticker at the bottom that shows tabs accumulated,

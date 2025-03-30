@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.form-card-creator{
+    display:flex;
+    flex-direction: column;
+    gap:2vh;
+    padding: 2vh;
+
+
+}
+input{
+    padding-left: 2%
+}
+
+.adImg {
+    height: 10%;
+    width: 30%;
+    border: 8px solid rgb(58, 97, 63);
+}
+
+.adContain {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.support {
+    color: rgb(30, 55, 36);
+    width: 60px;
+    font-style: italic;
+}

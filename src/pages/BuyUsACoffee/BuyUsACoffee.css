@@ -1,0 +1,42 @@
+/* Basic styling for the Buy Us a Coffee component */
+.buy-coffee-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buy-coffee-container h1 {
+    font-size: 24px;
+    color: #1a73e8;
+    margin-bottom: 20px;
+  }
+  
+  .buy-coffee-container p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .buy-button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #0c47a1;
+  }
+  
